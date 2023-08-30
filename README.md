@@ -2,7 +2,7 @@
 
 <p align="center">
     This is an application submitted to the 3rd challenge of Compass UOL internship program</br>
-    The application has to fetch posts from the following API <a href="https://jsonplaceholder.typicode.com">https://jsonplaceholder.typicode.com</a> enrich them with comment data and creates a log of processing. The client will then be able to search for posts and the history of states through the API immediately.</br> 
+    The application has to fetch posts from the following API <a href="https://jsonplaceholder.typicode.com">https://jsonplaceholder.typicode.com</a> enrich them with comment data and create a log of processing. The client will then be able to search for posts and the history of states through the API immediately.</br> 
 </p>
 
 <hr style="height:3px; border:none; color:#FFCE00; background-color:#FFCE00;" class="horizontal-line"/>
@@ -31,7 +31,7 @@ Inside the file there is the endpoints that can be accessed inside Postman to ve
 
 <p>
     The application has swagger dependency to document the endpoints<br/>
-    The documentation can be accessed at <a>http://localhost:8080/swagger-ui/index.html</a>
+    The documentation can be accessed at <a href="http://localhost:8080/swagger-ui/index.html">http://localhost:8080/swagger-ui/index.html </a>
 </p>
 <p>Below are detailed the available endpoints on the application.</p>
 
