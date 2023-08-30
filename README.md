@@ -23,7 +23,9 @@ The JDBC URL to use inside the H2 user interface is ```jdbc:h2:mem:post-harveste
 ## ➤ Testing the application
 
 In the resources folder of the project there is a ```post-harvester-postman.json``` file that can be used in the import feature of Postman.<br/>
-Inside the file there is the endpoints that can be accessed inside Postman to verify the functionalities of the application.
+Inside the file there is the endpoints that can be accessed inside Postman to verify the functionalities of the application.<br/>
+Besides that there is a file inside resources -> pythonScript directories that contains a python script to run HTTP requests to the application. This script shows the time of processing of each method on the terminal.
+
 
 <hr style="height:3px; border:none; color:#FFCE00; background-color:#FFCE00;" class="horizontal-line"/>
 
