@@ -9,10 +9,10 @@ import uol.compass.postservice.feignclient.PostConsumerFeign;
 
 @SpringBootApplication
 @EnableFeignClients
-public class PostServiceApplication implements CommandLineRunner {
+public class PostHarvesterApplication implements CommandLineRunner {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PostServiceApplication.class, args);
+		SpringApplication.run(PostHarvesterApplication.class, args);
 	}
 
 	@Autowired
