@@ -115,7 +115,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/posts?pageNumber=0&size=4&sortBy=id&direction=asc",
+							"raw": "http://localhost:8080/posts?pageNumber=0&pageSize=5&sortBy=id&direction=desc",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -130,8 +130,8 @@
 									"value": "0"
 								},
 								{
-									"key": "size",
-									"value": "4"
+									"key": "pageSize",
+									"value": "5"
 								},
 								{
 									"key": "sortBy",
@@ -139,7 +139,7 @@
 								},
 								{
 									"key": "direction",
-									"value": "asc"
+									"value": "desc"
 								}
 							]
 						}
@@ -597,7 +597,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/posts?pageNumber=0&size=4&sortBy=id&direction=asc",
+							"raw": "http://localhost:8080/posts?pageNumber=0&pageSize=5&sortBy=id&direction=asc",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -612,8 +612,8 @@
 									"value": "0"
 								},
 								{
-									"key": "size",
-									"value": "4"
+									"key": "pageSize",
+									"value": "5"
 								},
 								{
 									"key": "sortBy",

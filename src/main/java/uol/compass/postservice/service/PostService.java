@@ -134,15 +134,13 @@ public class PostService {
     }
 
     public AllPostsDTO getAllPosts(Integer pageNumber, Integer pageSize, String sortBy, String direction) {
-
-        Sort sort;
+        Pageable pageable;
 
         if (direction.equals("desc")) {
-            sort = Sort.by(Sort.Direction.DESC, sortBy);
+            pageable = PageRequest.of(pageNumber, pageSize, Sort.Direction.DESC, sortBy);
         } else {
-            sort = Sort.by(Sort.Direction.ASC, sortBy);
+            pageable = PageRequest.of(pageNumber, pageSize, Sort.Direction.ASC, sortBy);
         }
-        Pageable pageable = PageRequest.of(pageNumber, pageSize, sort);
         Page<Post> posts = postRepository.findAll(pageable);
 
         AllPostsDTO allPostsDTO = new AllPostsDTO<>(
