@@ -11,7 +11,7 @@
 
 Git clone the project.<br/>
 ```
-    git clone https://github.com/MakVinicius/post-harvester.git
+git clone https://github.com/MakVinicius/post-harvester.git
 ```
 The recommended IDE to use is IntelliJ, but you can use others if you prefer. <br/>
 The database used is H2 as specified, the username is <i>sa</i> and there is no password to simplify the utilization by the evaluators.<br/>
