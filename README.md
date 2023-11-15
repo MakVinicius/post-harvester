@@ -29,7 +29,7 @@ Besides that there is a file inside resources -> pythonScript directories that c
 
 <hr style="height:3px; border:none; color:#FFCE00; background-color:#FFCE00;" class="horizontal-line"/>
 
-## ➤ Endpoints
+## ➤ Documentation of Endpoints
 
 <p>
     The application has swagger dependency to document the endpoints<br/>
